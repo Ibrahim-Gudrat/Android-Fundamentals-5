@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/ivFavorites"
+        android:title="Favorites"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/ivSettings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings" />
+
+    <item android:id="@+id/ivAddContact"
+        android:title="Add Contact"
+        android:icon="@drawable/ic_add_contact"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/ivFeedBack"
+        android:title="Feedback" />
+
+</menu>
